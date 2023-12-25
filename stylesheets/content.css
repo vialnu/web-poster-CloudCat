@@ -1,0 +1,263 @@
+html {
+    background:rgba(239, 167, 176, 1);
+    width: 100%;
+}
+
+@font-face {
+   font-family: "PP Pangram Sans Medium";
+   src: url("../fonts/PP\ Pangram\ Sans\ Medium\ 400.otf")
+}
+@font-face {
+   font-family: "RubikBubbles";
+   src: url("../fonts/RubikBubbles-Regular.ttf")
+}
+
+.poster {
+   overflow: hidden;
+   background:rgba(239, 167, 176, 1); 
+}
+.firtstext {
+   font-size: 500%;
+   width: 500%;
+   font-family: "PP Pangram Sans";
+   font-weight: Medium;
+   margin-top: 1%;
+   margin-left: -0.1%;
+   color: #EFA7B0;
+   white-space: nowrap;
+   animation: text-move 2s infinite linear;
+   background-color: azure;
+  }
+
+  .firtstext:hover{
+    color: #66CEC8;
+  }
+
+  @keyframes text-move {
+   0% {transform: translateX(0)}
+   100% {transform: translateX(-1200px)}
+}
+
+.kartinka1 {
+   margin-top: 3%;
+   margin-left: 10%;
+   width: 27%;
+   background-repeat: no-repeat;
+   height: 15vw;
+   background-image: url("../images/облакобелое.jpg");
+  }
+
+  .kartinka2 {
+    margin-top: -15.1%; 
+    margin-left: 38.4%;
+    width: 27%;
+    height: 15vw;
+    background-repeat: no-repeat;
+    background-image: url("../images/облакобелое.jpg");
+  }
+
+  .kartinka3 {
+    margin-top: -15.1%; 
+    margin-left: 68%;
+    width: 27%; 
+    background-repeat: no-repeat;
+    height: 15vw;
+    background-image: url("../images/облакобелое.jpg");
+    }
+
+.one{
+  width: 100%;
+  background-color:rgb(239, 167, 176, 1);
+
+}
+
+.kartinka1:hover {
+  background-image: url("../images/облакорозовое.jpg");
+}
+.kartinka1:after {
+  background-image: url("../images/облакобелое.jpg");
+}
+
+.kartinka2:hover {
+  background-image: url("../images/облакорозовое.jpg");
+}
+.kartinka2:after {
+  background-image: url("../images/облакобелое.jpg");
+}
+
+.kartinka3:hover {
+  background-image: url("../images/облакорозовое.jpg");
+}
+.kartinka3:after {
+  background-image: url("../images/облакобелое.jpg");
+}
+
+.pryamoygolnik {
+margin-top: 3%;
+left: 0%;
+width: 300%;
+height: 24vw;
+background-color: rgba(255, 255, 255, 1); 
+}
+
+.bigtext {
+  font-size: 30vw;
+  width: 50vw;
+  font-family: "RubikBubbles";
+  font-weight: normal;
+  margin-top: -26.5vw;
+  margin-left: 10vw;
+  color: rgba(185, 173, 255, 1);
+  white-space: nowrap;
+  animation: text-move 4s infinite linear;
+  }
+
+.pryamoygolnikbig {
+  /* margin-top: -2vw; */
+  left: 0vw;
+  top: 0vw;
+  width: 10%;
+  height: 40vw;
+  /* background-color: rgba(239, 167, 176, 1);  */
+}
+
+.eyeobshiy {
+  width: 100%;
+  height: 100%;
+  margin-top: -200%;
+  margin-left: 105%;
+  display: block;
+  overflow: hidden;
+
+}
+
+.eyes{
+  margin-left: -1.8%;
+  margin-top: 2%;
+  width: 6.7%;
+  height: 12.5%;
+  position: absolute;
+  background-image: url("../images/eye.png");
+  animation: walk 0.9s steps(1)infinite;
+}
+
+@keyframes walk {
+  0% { background-position: 100px top; }
+  25% { background-position: -100px top; }
+  50% { background-position: -200px top; }
+  100% { background-position: -300px top; } }
+
+.flexcat{
+  display: flex;
+  justify-content: space-around;
+  margin-left: -18%;
+}
+
+.flexcat2{
+  display: flex;
+  margin-top: -20%;
+  margin-left: -20%;
+  justify-content: space-around;
+}
+
+  .cloudcat1 {
+  margin-left: -7vw;
+  margin-top: -3vw;
+  width: 50vw;
+  height: 30vw;
+  }
+
+  .fiol{
+  height: 100vw;
+  width: 100%;
+  }
+  
+  .myname{
+  font-size: 5vw;
+  width: 10vw;
+  margin-top: -100%;
+  font-family: "RubikBubbles";
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+  animation: text-go 3s infinite linear;
+  }
+
+  @keyframes text-go {
+  0% {transform: translateX(0)}
+  100% {transform: translateX(-1000%)}
+  }
+
+  .kvadrat1 {
+  margin-top: -20vw;
+  margin-left: 2vw;
+  width: 30.4vw;
+  height: 23.4vw;
+  background-image: url("../images/облакорил.jpg");
+  }
+
+  .kvadrat2 {
+  margin-top: -23.4vw;
+  margin-left: 34.4vw;
+  width: 30.4vw;
+  height: 23.4vw;
+  background-image: url("../images/облакорил.jpg");
+  }
+
+  .kvadrat3 {
+  margin-top: -23.4vw;
+  margin-left: 67vw;
+  width: 30.4vw;
+  height: 23.4vw;
+  background-image: url("../images/облакорил.jpg");
+  }
+
+  .kvadrat1:hover {
+    background-image: url("../images/лапы\ рил.jpg");
+  }
+  .kvadrat1:after {
+    background-image: url("../images/облакорил.jpg");
+  }
+
+  .kvadrat2:hover {
+    background-image: url("../images/лапы\ рил.jpg");
+  }
+  .kvadrat2:after {
+    background-image: url("../images/облакорил.jpg");
+  }
+
+  .kvadrat3:hover {
+    background-image: url("../images/лапы\ рил.jpg");
+  }
+  .kvadrat3:after {
+    background-image: url("../images/облакорил.jpg");
+  }
+
+  .vay1 {
+    margin-top: 0vw;
+    margin-left: -1vw;
+    width: 30.4vw;
+    height: 27.4vw;
+    background-image: url("../images/вау.gif");
+    }
+    .vay2 {
+    margin-top: -27vw;
+    margin-left: 35vw;
+    width: 30.4vw;
+    height: 27.4vw;
+    background-image: url("../images/вау.gif");
+    }
+    .vay3 {
+    margin-top: -27vw;
+    margin-left: 69vw;
+    width: 30.4vw;
+    height: 27.4vw;
+    background-image: url("../images/вау.gif");
+    }
+    
+
+
+
+
+
+
